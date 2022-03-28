@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    background: linear-gradient(-45deg, #bfee52, #3cd3e7, #23a6d5, #6123d5);
+	background-size: 400% 400%;
+	animation: gradiente 15s ease infinite;
+}
+
+*::-webkit-scrollbar {
+    width: 20px;               
+  }
+  
+*::-webkit-scrollbar-track {
+    background: none;    
+  }
+  
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(190, 0, 0);    
+    border-radius: 20px;       
+    border: 3px solid rgb(214, 228, 255);  
+  }
+
+img {
+    position: absolute;
+}
+
+input {
+    border-radius: 10px;
+    background-color: #e77b7b;
+    color: black;
+    border-style: none;
+    text-align: center;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  input:hover {
+    background-color: #e79a9a;
+  }
+
+  input::placeholder {
+    color: black;
+  }
+
+@keyframes gradiente {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.poke_image{
+    
+    position: absolute;
+    float: left;
+    margin-top: 265px;
+    margin-left: 175px;
+}
+
+.pokeSearch{
+    position: absolute;
+    float: left;
+    margin-top: 660px;
+    margin-left: 170px;
+}
+
+/* CSS */
+.pokeSearch .button {
+  background-color: #ffffff;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  background-color: #23a6d5;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.pokeSearch .button:hover {
+  box-shadow: rgba(216, 130, 122, 0.35) 0 -25px 18px -14px inset,rgba(187, 44, 44, 0.25) 0 1px 2px,rgba(187, 44, 44, 0.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(187, 56, 44, 0.25) 0 8px 16px,rgba(41, 25, 20, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.poke_info{
+    position: absolute;
+    float: left;   
+    width: 450px;
+    height: 600px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 700px;
+    padding-left: 50px;
+    background: linear-gradient(-45deg, #ffb0b0, #ff9f9f, #ff7d7d, #ff4e4e);
+	background-size: 400% 400%;
+	animation: gradiente 15s ease infinite;
+    box-shadow: rgba(216, 130, 122, 0.35) 0 -25px 18px -14px inset,rgba(187, 44, 44, 0.25) 0 1px 2px,rgba(187, 44, 44, 0.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(187, 56, 44, 0.25) 0 8px 16px,rgba(41, 25, 20, 0.25) 0 16px 32px;
+
+}
+
+.poke_info img{
+    float: left;
+}
+.poke_info h1{
+    text-align: right;
+    font-size: 35px;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 35px;
+}
+.poke_info h2{
+    font-size: 25px;
+}
+.poke_info p{
+    
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.poke_title{
+    position: absolute;
+    float: left;
+    color: #d32727;
+    margin-top: 550px;
+    margin-left: 240px;
+    font-size: 12px;
+}
+
+.boton_select{
+    float: left;
+    margin-top: 630px;
+    margin-left: 50px;
+
+}
+.boton_select .redondo{
+    background-color: #000000;
+    color: #fff;
+    display: block;
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    text-align: center;
+}
+.boton_select .redondo:hover{
+    background-color: #727070;
+    color: #fff;
+    border-radius: 50%;
+}
